@@ -10,7 +10,7 @@ type SearchFormProps = {
   setUserName: React.Dispatch<React.SetStateAction<string>>;
 };
 
-hihi
+
 
 const SearchForm = ({ userName, setUserName }: SearchFormProps) => {
   const [text, setText] = useState(userName);
